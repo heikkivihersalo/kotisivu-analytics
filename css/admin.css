@@ -1,0 +1,54 @@
+/**
+ * General Styling
+ */
+
+.ksd-server-side-analytics {
+  margin: 1em 1em 1em 0em;
+  padding: 1em 1em 2em 0em;
+}
+
+/**
+ * Sections
+ */
+
+.ksd-server-side-analytics__section {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1rem;
+  background-color: white;
+}
+
+/**
+ * Input Fields
+ */
+
+.ksd-server-side-analytics__input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  max-width: 25rem;
+}
+
+.ksd-server-side-analytics__checkbox-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.ksd-server-side-analytics__description {
+  margin: 0;
+  max-width: 70ch;
+}
+
+/**
+ * Modifiers
+ */
+
+.ksd-server-side-analytics .is-bold {
+  font-weight: bold;
+}
